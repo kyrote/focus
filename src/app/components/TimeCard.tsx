@@ -8,6 +8,12 @@ const TimeCard = ({
     periodActive,
     restTime,
     restActive,
+}: {
+    period: string;
+    periodTime: string;
+    periodActive: boolean;
+    restTime: string;
+    restActive: boolean;
 }) => {
     return (
         <div className="h-[9rem] w-[10rem] bg-[white] rounded-[0.5rem] border">
